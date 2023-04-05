@@ -1,0 +1,73 @@
+<form>
+  <label for="name">Ваше ім'я:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Ваша електронна пошта:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="gender">Ваша стать:</label>
+  <select id="gender" name="gender" required>
+    <option value="">-- Оберіть стать --</option>
+    <option value="male">Чоловік</option>
+    <option value="female">Жінка</option>
+    <option value="other">Інше</option>
+  </select>
+  <label for="comments">Про себе:</label>
+  <textarea id="comments" name="comments" required></textarea>
+</form>
+
+<form>
+  <label for="password">Пароль:</label>
+  <input type="password" id="password" name="password" required>
+
+  <input type="submit" value="Увійти">
+</form>
+
+<form> 
+  <label for="school">де навчаєшся</label><br>
+
+  <input type="radio" id="low" name="school" value="low" required>
+  <label for="low">4-7</label><br>
+
+  <input type="radio" id="medium" name="school" value="medium" required>
+  <label for="medium">7-9</label><br>
+
+  <input type="radio" id="high" name="school" value="high" required>
+  <label for="high">9-10</label><br>
+</form>
+
+<form>
+  <p>Оберіть кольори, які вам подобаються:</p>
+ 
+  <input type="checkbox" id="red" name="color" value="red">
+  <label for="red">Червоний</label><br>
+ 
+  <input type="checkbox" id="blue" name="color" value="blue">
+  <label for="blue">Синій</label><br>
+  
+  <input type="checkbox" id="green" name="color" value="green">
+  <label for="green">Зелений</label><br>
+</form>
+
+<form>
+  <label for="file">Виберіть файл для завантаження:</label>
+  <input type="file" id="file" name="file"><br>
+</form>
+
+<form>
+  <label for="image">Виберіть файл для завантаження:</label>
+  <input type="image" id="image" name="image"><br>
+</form>
+
+<form>
+  <fieldset>
+    <legend>Контактна інформація(ми зателефонуємо вам)</legend>
+    <label for="number">Ваш номер телефону</label>
+    <input type="text" id="number" name="number" required>
+  </fieldset>  
+</form>
+
+<form>
+  <button type="submit">Відправити</button>
+  <input type="reset" value="Очистити">
+</form>
